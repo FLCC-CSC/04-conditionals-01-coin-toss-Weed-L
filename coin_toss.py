@@ -11,7 +11,21 @@
 
 
 
+import random
 
+def main():
+    print("===== Coin Flipper =====")
+    number = coin_flipper()
+    if number >= 51:
+        print("Tails")
+    else:
+        print("Heads")
+
+def coin_flipper():
+    number = random.randint(1, 100)
+    return number
+
+main()
 
 
 
@@ -45,9 +59,7 @@ Tails
 1. What was the hardest part of completing this lab? 
 
 
-
-
-
+Typing out this reflection question.
 
 
 '''
@@ -63,5 +75,5 @@ may impede your understanding. Please rate how well you understand the concepts 
 [ ] I understand very little about this lab.
 [ ] I am about 50/50 on this lab; I get parts of it but not the whole picture.
 [ ] I pretty much get it.
-[ ] I'm solid. Totally got it.
+[x] I'm solid. Totally got it.
 '''
